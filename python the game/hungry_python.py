@@ -63,7 +63,7 @@ def game_loop():
 
     snake_List = []
     snake_length = 1
-    snake_speed = 15
+    snake_speed = 12
 
     foodx = round(random.randrange(0, display_width - snake_block_size) / float(snake_block_size)) * float(snake_block_size)
     foody = round(random.randrange(0, display_height - snake_block_size) / float(snake_block_size)) * float(snake_block_size)
